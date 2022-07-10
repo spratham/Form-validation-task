@@ -131,16 +131,8 @@ const App = () => {
 
         <div className="output">
           {records.map((curElem) => {
-            const {
-              id,
-              username,
-              email,
-              mobile,
-              country,
-              city,
-              state,
-              message,
-            } = curElem;
+            const { username, email, mobile, country, city, state, message } =
+              curElem;
             return (
               <div className="showDataStyle" key={curElem.id}>
                 <p>{username}</p>

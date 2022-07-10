@@ -1,17 +1,16 @@
-.container{
+.container {
   display: flex;
   justify-content: center;
-  margin-top: 6rem;
- background-color: rgb(193, 162, 243);
+
+  background-color: rgb(193, 162, 243);
   padding-top: 5rem;
   padding-bottom: 5rem;
-  border: 4px ;
   margin-left: 20rem;
   margin-right: 20rem;
   border-radius: 13px;
 }
 
-button[type] {
+button {
   border: none;
   padding: 0.4rem 1rem;
   text-align: center;
@@ -23,19 +22,33 @@ button[type] {
   margin-left: 6rem;
 }
 
-button[type]:hover {
+button:hover {
   background-color: darkblue;
   color: aliceblue;
 }
 
-
-#message,#username,#email,#state,#city,#country,#mobile{
- 
-margin:5px
+#message,
+#username,
+#email,
+#state,
+#city,
+#country,
+#mobile {
+  margin: 5px;
 }
 
-.field{
-
+.field {
+  width: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
   padding: 5px;
 }
 
+.heading {
+  background-color: rgb(66, 139, 99);
+  padding: 20px;
+  margin-left: 20rem;
+  margin-right: 20rem;
+  border-radius: 13px;
+}

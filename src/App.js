@@ -39,7 +39,9 @@ const App = () => {
   };
   return (
     <div>
-      <h1><center>Validation Form Task</center></h1>
+      <h1 className="heading">
+        <center>Validation Form Task</center>
+      </h1>
       <div className="container">
         <form action="" onSubmit={handleSubmit}>
           <div className="field">
@@ -75,6 +77,8 @@ const App = () => {
               onChange={handleInput}
               name="mobile"
               id="mobile"
+              title="Error Message"
+              pattern="[1-9]{1}[0-9]{9}"
             />
           </div>
           <div className="field">
